@@ -1,0 +1,18 @@
+# Ignore .npy and .tar files
+*.npy
+*.tar
+
+# Ignore the train.py file
+train.py
+EDA.ipynb
+
+# Ignore _pycache_ folder
+_pycache_/
+
+# Ignore .ipynb_checkpoints folder
+.ipynb_checkpoints/
+
+# ignoring the data
+data/
+glove/
+processed_data/

@@ -1,0 +1,28 @@
+Pre-Processing
+
+1. \n with a space
+2. html parsing
+3. lower casing, removing numbers, and punctuation, and expanding contractions
+4. Removing stop words
+5. lemmatizing
+6. create torch tensor label
+
+so the 's just ends up leaving an s
+we removed links of the normrla form but there are still some weird link type things there
+the word wp occurs a lot its just wikipedia
+
+common things to remove-
+talk
+
+maybe let links stay might have meaning
+
+http://en.wikipedia.org/ comes 1200 times
+talk comes over 20k+ times
+(talk) comes 4000 times
+
+
+remove single letter links and http[s]? and www and com and org and (talk) and wp
+
+add multiprocessing and tqdm to this
+
+fasttext and Glove,2bi-GRU and 2dense
